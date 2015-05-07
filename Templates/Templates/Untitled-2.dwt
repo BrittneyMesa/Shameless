@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
+<!-- TemplateParam name="The Villains" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<table width="950">
+  <tr>
+    <td width="237" class="home"><a href="../index.html">Home</a></td>
+    <td width="236" class="doc"><a href="../the-gallaghers/index.html">The Gallaghers</a></td>
+    <td width="237" class="companions"><a href="../main-characters/index.html">Main Charcters </a></td>
+    <td width="220" class="villains"><a href="../About The Series.html">About The Series </a></td>
+  </tr>
+  <tr>
+    <td colspan="4"><!-- TemplateBeginEditable name="Banner" --> (banner)<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table width="950">
+  <tr>
+    <td class="nav"><ul>
+      <!-- TemplateBeginIf cond="_document['The Doctors Menu']" -->
+        <li><a href="../the-gallaghers/frank.html">Frank Gallagher</a></li>
+        <li><a href="../the-gallaghers/monica.html">Monica Gallagher</a></li>
+        <li><a href="../the-gallaghers/fiona.html">Fiona Gallagher</a></li>
+        <li><a href="../the-gallaghers/lip.html">Philip &quot;Lip&quot; Gallager</a></li>
+        <li><a href="../the-gallaghers/ian.html">Ian Gallager</a></li>
+        <li><a href="../the-gallaghers/debbie.html">Debbie Gallager </a></li>
+        <li><a href="../the-gallaghers/carl.html">Carl Gallager</a></li>
+        <li><a href="../the-gallaghers/liam.html">Liam Gallager </a></li>
+        <!-- TemplateEndIf -->
+    </ul>
+      <ul>
+        <a href="../main-characters/kevin.html"><!-- TemplateBeginIf cond="_document['The Companions']" -->
+        <!-- TemplateEndIf --></a><!-- TemplateBeginIf cond="_document['The Companions']" -->
+        <li><a href="../main-characters/kevin.html">Kevin Ball</a></li>
+        <li><a href="../main-characters/veronica.html">Veronica Ball</a></li>
+        <li><a href="../main-characters/sheila.html">Sheila Jackson</a></li>
+        <li><a href="../main-characters/mickey.html">Mickey Milkovich</a></li>
+        <li><a href="../main-characters/sammi.html">Sammi Slott</a></li>
+        <!-- TemplateEndIf -->
+      </ul>
+    <a href="../About The Series.html"><!-- TemplateBeginIf cond="_document['The Villains']" -->About The Series<!-- TemplateEndIf --></a><!-- TemplateBeginIf cond="_document['The Villains']" --> <!-- TemplateEndIf --></td>
+    <td class="content"><!-- TemplateBeginEditable name="Content" -->(content)<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
